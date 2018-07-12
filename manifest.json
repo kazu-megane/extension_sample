@@ -1,0 +1,16 @@
+{
+  "name":"Example",
+  "version":"0.0.1",
+  "manifest_version":2,
+  "description":"This is an Example",
+  "content_scripts":[
+    {
+      "matches":["https://shopping.yahoo.co.jp/search*"],
+      "js":
+      [
+        "./node_modules/jquery/dist/jquery.min.js",
+        "script.js"
+      ]
+    }
+  ]
+}
